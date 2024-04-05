@@ -9,4 +9,5 @@ class Events(Base):
     details = Column(String)
     slug = Column(String, nullable=False)
     maximum_attendes = Column(Integer)
+
     
